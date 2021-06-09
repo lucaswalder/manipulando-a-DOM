@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(228, 242, 247);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color: purple;
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+div {
+    background: lightgrey;
+    padding: 5rem 20rem;
+    position: absolute;
+    z-index: 2;
+    display:none;
+}
+
+.enable {
+    display: block;
+}
